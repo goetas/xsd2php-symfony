@@ -1,0 +1,16 @@
+{
+    "name": "goetas/xsd2php",
+    "type": "library",
+    "description": "Convert XSD  (XML Schema ) definitions into PHP classes (Symfony bundle)",
+    "keywords": ["converter", "xml", "xsd", "php", "symfony"],
+    "license": "LGPL",
+    "authors": [
+        {"name": "Asmir Mustafic"}
+    ],
+    "require": {
+        "goetas/xsd2php": "*"
+    },
+    "autoload": {
+        "psr-0": { "Goetas\\Symfony\\GoetasXsdToPhpBundle": "lib/" }
+    }
+}
