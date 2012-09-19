@@ -28,7 +28,7 @@ class GenerateEntityCommand extends Convert
     {
     	parent::configure();
          $this
-        ->setName('xsd2php:convert');
+        ->setName('generate:xsd2php:entities');
 
     }
 }
